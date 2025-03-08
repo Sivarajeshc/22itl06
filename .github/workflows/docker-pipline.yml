@@ -1,18 +1,17 @@
-name: docker-pipline-sivarajesh
+name: docker-pipeline-siva
 on: push
 jobs:
   docker-job:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
-      - name: Print your register number
-        run: echo "Hello World - 22itl06"
+      - name: Print your Register Number
+        run: echo "Hello World-22itlo6"
 
-        -name: Checkout
-         uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-        
       - name: Docker Build
-        run:  docker build -tsivarajeshc/ml-model-22itl06
+        run: docker build -t csivarajesh/ml-model-22it006 .
 
       - name: Docker Images
-        run:  docker images
+        run: docker images
