@@ -1,0 +1,8 @@
+name: docker-pipline-sivarajesh
+on: push
+jobs:
+  docker-job:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Print your register number
+        run: echo "Hello World - 22itl06"
