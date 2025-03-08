@@ -23,5 +23,5 @@ jobs:
           password: ${{secrets.DOCKERHUB_TOKEN}}
 
       - name: Docker Push
-        run: docker build -t csivarajesh/ml-model-22it006 .
+        run: docker push csivarajesh/ml-model-22it006 .
           
