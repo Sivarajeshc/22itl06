@@ -1,9 +1,9 @@
-name: hello-world-sivarajesh😂
+name: hello-world-sivarajesh
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-lastest
     steps:
       - name: Print your name
-        run: echo "Hello World - sivarajesh😂"
+        run: echo "Hello World - sivarajesh"
         
